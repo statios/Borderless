@@ -19,9 +19,7 @@ final class PeachAppContainer: SharedContainer {
 
 extension PeachAppContainer: NetworkingDependency {
     var networkService: NetworkService {
-        Factory<NetworkService>(self) {
-            DefaultNetworkService(loggerDependency: self)
-        }()
+        Factory(self) { DefaultNetworkService(loggerDependency: self) }()
     }
 }
 
