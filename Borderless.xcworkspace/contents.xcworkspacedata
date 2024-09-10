@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "App">
+      <FileRef
+         location = "group:App/Peach/../Banana/Banana.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:App/Peach/Peach.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Foundation">
+      <FileRef
+         location = "group:Foundation/Networking/Networking.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Foundation/ABTest/ABTest.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Foundation/Logger/Logger.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
